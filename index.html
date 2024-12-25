@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serene Scents - Luxury Perfume Collection</title>
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-content">
+            <div class="logo">
+                <h1>Serene Scents</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="products.html">Collection</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-cart">
+                <button class="cart-button">
+                    Cart <span class="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Discover Your Perfect Scent</h2>
+            <p>Explore our curated collection of luxury fragrances</p>
+            <a href="#featured" class="btn btn-primary cta-button">View Collection</a>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="featured" class="featured-products">
+        <div class="container">
+            <h2>Featured Collection</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="rosePer.jpg" alt="Rose Garden">
+                    </div>
+                    <div class="product-info">
+                        <h3>Rose Garden</h3>
+                        <p>A delicate blend of rose and jasmine</p>
+                        <span class="price">$120</span>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="ocean.jpg" alt="Ocean Breeze">
+                    </div>
+                    <div class="product-info">
+                        <h3>Ocean Breeze</h3>
+                        <p>Fresh marine notes with citrus undertones</p>
+                        <span class="price">$95</span>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="vanill.jpg" alt="Vanilla Dreams">
+                    </div>
+                    <div class="product-info">
+                        <h3>Vanilla Dreams</h3>
+                        <p>Warm vanilla with hints of amber</p>
+                        <span class="price">$110</span>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Stay Connected</h2>
+            <p>Subscribe to receive updates on new fragrances and exclusive offers</p>
+            <form class="newsletter-form">
+                <div class="form-group">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="close-cart">&times;</button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be added here -->
+        </div>
+        <div class="cart-total">
+            <span>Total: </span>
+            <span class="total-amount">$0.00</span>
+        </div>
+        <button class="checkout-button">Proceed to Checkout</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: hello@serenescents.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Pinterest</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Visit Us</h3>
+                <p>123 Fragrance Avenue</p>
+                <p>Open Mon-Sat: 10AM-7PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Serene Scents. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

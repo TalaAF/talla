@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serene Scents - Our Collection</title>
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="products.css">
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="products.js" defer></script>
+</head>
+<body>
+   
+    <nav class="main-nav">
+        <div class="nav-content">
+            <div class="logo">
+                <h1>Serene Scents</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="products.html" class="active">Collection</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-cart">
+                <button class="cart-button">
+                    Cart <span class="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="products-header">
+        <h2>Our Collection</h2>
+    
+        <div class="products-controls">
+            <div class="search-box">
+                <input type="text" id="search-products" placeholder="Search perfumes...">
+            </div>
+            <div class="filter-box">
+                <select id="category-filter">
+                    <option value="">All Categories</option>
+                </select>
+                <select id="price-filter">
+                    <option value="">All Prices</option>
+                    <option value="0-100">Under $100</option>
+                    <option value="100-150">$100 - $150</option>
+                    <option value="150-200">$150 - $200</option>
+                    <option value="200-+">$200+</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="products-section">
+       
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>Loading products...</p>
+        </div>
+        
+        <div class="products-grid">
+           
+        </div>
+    </section>
+
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="close-cart">&times;</button>
+        </div>
+        <div class="cart-items">
+           
+        </div>
+        <div class="cart-total">
+            <span>Total: </span>
+            <span class="total-amount">$0.00</span>
+        </div>
+        <button class="checkout-button">Proceed to Checkout</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: hello@serenescents.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Pinterest</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Visit Us</h3>
+                <p>123 Fragrance Avenue</p>
+                <p>Open Mon-Sat: 10AM-7PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Serene Scents. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
